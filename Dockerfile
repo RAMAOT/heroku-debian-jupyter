@@ -5,6 +5,8 @@ MAINTAINER Patrick Büch <dh@paco.pl31.de>
 RUN echo "Europe/Berlin" > /etc/timezone && \
     dpkg-reconfigure tzdata
 
+RUN apt-get install -y python3-nose
+
 COPY files/ /
 
 # Runtime CMD will go to heroku.yml
