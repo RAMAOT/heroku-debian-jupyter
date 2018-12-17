@@ -5,7 +5,5 @@ setup:
 build:
   docker:
     web: Dockerfile
-  languages:
-    - python
 run:
   web: python3 -m notebook --no-browser --no-mathjax --ip=* --port=$PORT
