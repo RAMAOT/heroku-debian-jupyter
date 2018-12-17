@@ -3,7 +3,7 @@ try:
     import json
     import traceback
     import IPython.lib
-    import pgcontents
+    #import pgcontents
 
     c = get_config()
 
