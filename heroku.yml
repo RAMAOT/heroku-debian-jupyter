@@ -2,10 +2,8 @@ setup:
   addons:
   - plan: heroku-postgresql
     as: DATABASE
-  config:
-    HOME: /root
 build:
   docker:
     web: Dockerfile
 run:
-  web: ~/start_jupyter
+  web: /start_jupyter
