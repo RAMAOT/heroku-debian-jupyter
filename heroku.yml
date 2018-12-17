@@ -6,4 +6,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: bash -c start_jupyter
+  web: ~/start_jupyter
