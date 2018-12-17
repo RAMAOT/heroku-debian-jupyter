@@ -1,0 +1,11 @@
+{
+  "name": "heroku-debian-jupyter",
+  "description": "Go Getting Started Example App",
+  "keywords": [
+    "debian",
+    "jupyter",
+    "notebook"
+  ],
+  "website": "https://github.com/pl31/heroku-debian-jupyter",
+  "repository": "https://github.com/pl31/heroku-debian-jupyter"
+}
