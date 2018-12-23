@@ -9,7 +9,7 @@ Steps to deploy to heroku
    `heroku plugins:install @heroku-cli/plugin-manifest`
 2. Clone this repository and cahnge into path
 3. `heroku login`
-   `heroku create your-app-name --manifest`
+   `heroku create your-app-name --manifest --region eu`
 4. Use heroku Web-UI to connect app to github repository
 
 

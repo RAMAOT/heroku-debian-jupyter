@@ -1,11 +1,12 @@
 {
   "name": "heroku-debian-jupyter",
-  "description": "Go Getting Started Example App",
+  "description": "jupyter with pgcontents for heroku, mainly based on debian packages",
   "keywords": [
     "debian",
     "jupyter",
     "notebook"
   ],
+  "stack": "container",
   "website": "https://github.com/pl31/heroku-debian-jupyter",
   "repository": "https://github.com/pl31/heroku-debian-jupyter"
 }
