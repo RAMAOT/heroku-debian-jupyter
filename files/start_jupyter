@@ -2,7 +2,9 @@
 
 set -e
 
-pgcontents init -l $DATABASE_URL --no-prompt
+if [ -n "$DATABASE_URL" ]; then
+	pgcontents init -l $DATABASE_URL --no-prompt
+fi
 
 #jupyter contrib nbextension install --user
 #jupyter nbextensions_configurator enable --user
