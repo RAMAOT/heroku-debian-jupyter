@@ -12,7 +12,7 @@ Steps to deploy to heroku
    `heroku create your-app-name --manifest --region eu`
 4. Deploy app using heroku standard methods
   - Use heroku Web-UI to connect app to github repository
-  - `heroku git:remote -a young-cove-92241`
+  - `heroku git:remote -a young-cove-92241`  
     `git push heroku master`
 
 
