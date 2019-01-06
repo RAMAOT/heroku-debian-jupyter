@@ -11,6 +11,6 @@ fi
 #jupyter contrib nbextension install --user
 #jupyter nbextensions_configurator enable --user
 
-jupyter notebook \
+HOME=/home/dyno jupyter notebook \
   --no-browser --no-mathjax --ip=* --port=$PORT \
 	$JUPYTER_NOTEBOOK_ARGS
