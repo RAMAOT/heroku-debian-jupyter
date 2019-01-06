@@ -4,6 +4,8 @@ MAINTAINER Patrick Büch <dh@paco.pl31.de>
 RUN echo "Europe/Berlin" > /etc/timezone && \
     dpkg-reconfigure tzdata
 
+RUN useradd --create-home jupyter
+
 COPY files/ /
 RUN chown -R jupyter:jupyter /home/jupyter
 
