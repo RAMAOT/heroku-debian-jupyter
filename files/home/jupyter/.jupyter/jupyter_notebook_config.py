@@ -3,7 +3,7 @@ try:
     import json
     import traceback
     import IPython.lib
-    #import pgcontents
+    import pgcontents
 
     c = get_config()
 
@@ -18,7 +18,7 @@ try:
 
     ### PostresContentsManager ###
     database_url = os.getenv('DATABASE_URL', None)
-    if False and database_url:
+    if database_url:
         # Tell IPython to use PostgresContentsManager for all storage.
         c.NotebookApp.contents_manager_class = pgcontents.PostgresContentsManager
 
