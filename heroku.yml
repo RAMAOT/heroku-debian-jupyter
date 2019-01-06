@@ -6,4 +6,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: /start_jupyter
+  web: runuser -l jupyter -c 'start_jupyter'

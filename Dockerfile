@@ -5,5 +5,6 @@ RUN echo "Europe/Berlin" > /etc/timezone && \
     dpkg-reconfigure tzdata
 
 COPY files/ /
+RUN chown -R jupyter:jupyter /home/jupyter
 
 # Runtime CMD will go to heroku.yml
