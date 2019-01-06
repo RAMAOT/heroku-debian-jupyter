@@ -7,4 +7,5 @@ RUN echo "Europe/Berlin" > /etc/timezone && \
 COPY files/ /
 RUN chown -R jupyter:jupyter /home/jupyter
 
-# Runtime CMD will go to heroku.yml
+# Runtime CMD will also go to heroku.yml
+CMD runuser -l jupyter -c "PORT=$PORT start_jupyter"
