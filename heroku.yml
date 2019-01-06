@@ -6,4 +6,5 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: /sbin/runuser -l jupyter -c "/usr/local/bin/start_jupyter"
+  #web: /sbin/runuser -l jupyter -c "/usr/local/bin/start_jupyter"
+  web: start_jupyter

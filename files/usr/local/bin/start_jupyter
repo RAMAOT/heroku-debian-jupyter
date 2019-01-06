@@ -2,6 +2,8 @@
 
 set -e
 
+cat /etc/passwd
+
 if [ -n "$DATABASE_URL" ]; then
 	pgcontents init -l $DATABASE_URL --no-prompt
 fi
