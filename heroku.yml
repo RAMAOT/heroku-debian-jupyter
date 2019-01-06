@@ -6,4 +6,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: runuser -l jupyter -c "PORT=$PORT start_jupyter"
+  web: /usr/local/bin/start_jupyter
