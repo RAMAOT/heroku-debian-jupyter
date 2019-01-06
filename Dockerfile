@@ -4,10 +4,7 @@ MAINTAINER Patrick Büch <dh@paco.pl31.de>
 RUN echo "Europe/Berlin" > /etc/timezone && \
     dpkg-reconfigure tzdata
 
-# heroku uses user 'dyno'
-RUN useradd --create-home dyno
-
 COPY files/ /
-RUN chown -R dyno:dyno /home/dyno
+RUN chown -R jupyter:jupyter /home/jupyter
 
 # Runtime CMD goes to heroku.yml
