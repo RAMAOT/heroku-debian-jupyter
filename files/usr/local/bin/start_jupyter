@@ -2,16 +2,12 @@
 
 set -e
 
-cat /etc/passwd
-
 if [ -n "$DATABASE_URL" ]; then
 	pgcontents init -l $DATABASE_URL --no-prompt
 fi
 
 #jupyter contrib nbextension install --user
 #jupyter nbextensions_configurator enable --user
-
-unset DATABASE_URL
 
 HOME=/home/dyno jupyter notebook \
   --no-browser --no-mathjax --ip=* --port=$PORT \
