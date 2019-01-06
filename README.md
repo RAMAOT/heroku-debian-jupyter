@@ -11,9 +11,9 @@ Steps to deploy to heroku
 3. `heroku login`  
    `heroku create your-app-name --manifest --region eu`
 4. Deploy app using heroku standard methods
-  a. Use heroku Web-UI to connect app to github repository
-  b. `heroku git:remote -a young-cove-92241` 
-     `git push heroku master`
+  - Use heroku Web-UI to connect app to github repository
+  - `heroku git:remote -a young-cove-92241`
+    `git push heroku master`
 
 
 ...hope to see an Deploy button soon for manifest/container apps.
