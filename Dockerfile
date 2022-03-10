@@ -1,4 +1,4 @@
-FROM pl31/debian-jupyter-notebook:stretch
+FROM ramaot/debian-jupyter-notebook:stretch
 MAINTAINER Patrick Büch <dh@paco.pl31.de>
 
 RUN echo "Europe/Berlin" > /etc/timezone && \
