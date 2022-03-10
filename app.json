@@ -7,6 +7,6 @@
     "notebook"
   ],
   "stack": "container",
-  "website": "https://github.com/pl31/heroku-debian-jupyter",
-  "repository": "https://github.com/pl31/heroku-debian-jupyter"
+  "website": "https://github.com/ramaot/heroku-debian-jupyter",
+  "repository": "https://github.com/ramaot/heroku-debian-jupyter"
 }
