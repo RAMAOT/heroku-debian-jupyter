@@ -1,5 +1,5 @@
 # heroku-debian-jupyter
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 Steps to deploy to heroku
 
 1. Follow the instructions
